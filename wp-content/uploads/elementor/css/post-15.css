@@ -1,0 +1,131 @@
+.elementor-kit-15 {
+    --e-global-color-primary: #FAE303;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #ED000F;
+    --e-global-color-bf174b6: #ED000F;
+    --e-global-color-6aaff3b: #FAE303;
+    --e-global-color-d3e7467: #ED000F;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    color: #7A7883;
+    font-family: "Karla", Sans-serif;
+    font-size: 16px;
+    background-color: #ED000F;
+}
+
+.elementor-kit-15 a {
+    color: #FFFFFF;
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.elementor-kit-15 h1 {
+    color: var( --e-global-color-primary);
+    font-family: "Chinaaaaa", Sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.elementor-kit-15 h2 {
+    color: var( --e-global-color-6aaff3b);
+    font-family: "Chinaaaaa", Sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.elementor-kit-15 h3 {
+    color: #FFFFFF;
+    font-family: "Chinaaaaa", Sans-serif;
+}
+
+.elementor-kit-15 h4 {
+    color: #FFFFFF;
+    font-family: "Rubik", Sans-serif;
+}
+
+.elementor-kit-15 h5 {
+    color: #FFFFFF;
+    font-family: "Rubik", Sans-serif;
+}
+
+.elementor-kit-15 h6 {
+    color: #FFFFFF;
+    font-family: "Rubik", Sans-serif;
+}
+
+.elementor-kit-15 button,
+.elementor-kit-15 input[type="button"],
+.elementor-kit-15 input[type="submit"],
+.elementor-kit-15 .elementor-button {
+    background-color: #D24135;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-15 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+.site-header {
+    padding-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
+
+/* Start Custom Fonts CSS */
+
+@font-face {
+    font-family: 'Chinaaaaa';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('https://xibainu.lol/wp-content/uploads/2023/12/go3v2.ttf') format('truetype');
+}
+
+/* End Custom Fonts CSS */
