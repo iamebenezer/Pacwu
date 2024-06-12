@@ -917,6 +917,28 @@
             </div>
         </section>
     </div>
+    <audio id="background-music" autoplay loop>
+        <source src="/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+
+    <script>
+        // Ensure autoplay works after page load
+        window.addEventListener('load', function() {
+            var audio = document.getElementById('background-music');
+            audio.play().catch(function(error) {
+                // Optional: Ensure autoplay works after user interaction if blocked
+                document.addEventListener('click', function() {
+                    if (audio.paused) {
+                        audio.play();
+                    }
+                });
+            });
+        });
+    </script>
+    
+
     <script type='text/javascript'>
         const lazyloadRunObserver = () => {
             const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
